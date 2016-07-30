@@ -5,14 +5,7 @@ function UserProfile() {
 			position: 'h6',
 			description: 'p'
 		},
-		template: [
-			'<div>',
-				'<h3>User Profile</h3>',
-				'<div>Name: <span ng-transclude="name"></span></div>',
-				'<div>Position: <span ng-transclude="position"></span></div>',
-				'<div>Description: <span ng-transclude="description"></span></div>',
-			'</div>'
-		].join('')
+		templateUrl: 'js/app/directives/profile.html'
 	}
 }
 
